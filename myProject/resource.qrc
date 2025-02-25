@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/piyu">
+        <file>images.jpeg</file>
+        <file>1.png</file>
+        <file>3.jpg</file>
+        <file>4.jpg</file>
+    </qresource>
+</RCC>

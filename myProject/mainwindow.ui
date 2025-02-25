@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#d3ffc5;   /* Mint green */</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>19</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 28px;
+    color: green;
+    padding: 10px;
+    background-color: #f0f0f0;  /* Light gray background for contrast */
+    border-radius: 8px;         /* Rounded corners */
+    font-weight: bold;          /* Bold text */
+    text-align: center;         /* Center the text */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>LOGIN</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>160</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 25px;
+    color: #333333;   /* Dark gray color for the text */
+    padding: 5px;
+    font-weight: normal;  /* Regular weight */
+    text-align: left;     /* Align the text to the left */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>User Name: </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>160</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    font-size: 10px;                   /* Default font size */
+    color: #000000;                    /* Black text color */
+    padding: 8px;                      /* Inner padding */
+    background-color: #f9f9f9;        /* Light gray background */
+    border: 2px solid #cccccc;         /* Light gray border */
+    border-radius: 5px;                /* Rounded corners */
+}
+
+QLineEdit:focus {
+    border: 2px solid #4CAF50;         /* Green border when focused */
+    background-color: #ffffff;         /* White background when focused */
+}
+
+QLineEdit::placeholder {
+    color: #aaaaaa;                    /* Light gray for placeholder text */
+    font-style: italic;                /* Italic style for a subtle hint */
+    font-size: 16px;                   /* Placeholder font size */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>240</y>
+      <width>331</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    font-size: 10px;                   /* Default font size */
+    color: #000000;                    /* Black text color */
+    padding: 8px;                      /* Inner padding */
+    background-color: #f9f9f9;        /* Light gray background */
+    border: 2px solid #cccccc;         /* Light gray border */
+    border-radius: 5px;                /* Rounded corners */
+}
+
+QLineEdit:focus {
+    border: 2px solid #4CAF50;         /* Green border when focused */
+    background-color: #ffffff;         /* White background when focused */
+}
+
+QLineEdit::placeholder {
+    color: #aaaaaa;                    /* Light gray for placeholder text */
+    font-style: italic;                /* Italic style for a subtle hint */
+    font-size: 16px;                   /* Placeholder font size */
+}
+</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::EchoMode::Password</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cancel">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>360</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18px;
+    padding: 10px 20px;                /* Vertical and horizontal padding */
+    color: #ffffff;                     /* White text color */
+    background-color: #4CAF50;         /* Green background for login */
+    border: none;                       /* No border */
+    border-radius: 5px;                /* Rounded corners */
+    transition: background-color 0.3s;  /* Smooth transition effect */
+}</string>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SignUp">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>430</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18px;
+    padding: 10px 20px;                /* Vertical and horizontal padding */
+    color: #ffffff;                     /* White text color */
+    background-color: #4CAF50;         /* Green background for login */
+    border: none;                       /* No border */
+    border-radius: 5px;                /* Rounded corners */
+    transition: background-color 0.3s;  /* Smooth transition effect */
+}</string>
+    </property>
+    <property name="text">
+     <string>sign up</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Login">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>360</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18px;
+    padding: 10px 20px;                /* Vertical and horizontal padding */
+    color: #ffffff;                     /* White text color */
+    background-color: #4CAF50;         /* Green background for login */
+    border: none;                       /* No border */
+    border-radius: 5px;                /* Rounded corners */
+    transition: background-color 0.3s;  /* Smooth transition effect */
+}</string>
+    </property>
+    <property name="text">
+     <string>login</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>450</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Don't have an account?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>240</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 25px;
+    color: #333333;   /* Dark gray color for the text */
+    padding: 5px;
+    font-weight: normal;  /* Regular weight */
+    text-align: left;     /* Align the text to the left */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Password  :</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
